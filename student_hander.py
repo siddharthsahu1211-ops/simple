@@ -1,5 +1,6 @@
 import json
-import database 
+import database.database as database 
+
 from utils.responses import send_json, send_404
 
 def parse_body(handler):
@@ -9,4 +10,4 @@ def parse_body(handler):
 
 def get_all_student(handler):
     student = database.get_all_student()
-    return send_json(handler,200,students)
+    return send_json(handler,200,student)

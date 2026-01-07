@@ -427,6 +427,8 @@ Here’s what happens when user clicks "Add Student":
    * Inserts record into database
    * Responds with success
 4. Frontend:
+5. deloy
+6. 
 
    * Shows alert
    * Reloads student list (`GET /api/students`)
